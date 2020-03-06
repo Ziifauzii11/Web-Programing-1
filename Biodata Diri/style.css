@@ -1,0 +1,17 @@
+body{
+	background-image: url('bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+	color: black;
+}
+.table{
+
+	cursor: pointer;
+	text-align: center;
+	transition-property: background;
+	transition-duration: 1s;
+	transition-timing-function: linear;
+}
+.table:hover {
+	background:skyblue;
+}
